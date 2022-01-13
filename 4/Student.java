@@ -52,15 +52,15 @@ public class Student{
 
         public Student build(){
             if(this.imie==null){
-                System.out.println("Name is required!"); //uzupelnic!
+                System.out.println("Name is required!");
                 return null;
             }
             else if (this.nazwisko==null){
-                System.out.println("Last name is required!"); //uzupelnic!
+                System.out.println("Last name is required!");
                 return null;
             }
             else if (this.indeks==0){
-                System.out.println("Indeks is required!"); //uzupelnic!
+                System.out.println("Indeks is required!");
                 return null;
             }
             return new Student(this.imie,this.nazwisko, this.indeks, this.oceny);
